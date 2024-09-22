@@ -3,9 +3,8 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/inicioMentesInovadoras/PracaDaCiencia">
-    <img src="readme_files/images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+  
+  ![LOGO][logo-img]    
 
 <h3 align="center">Sistema Web Praça da Ciência</h3>
 
@@ -61,10 +60,18 @@ Apesar da bela ação praticada por eles, o local não possui um time de Tecnolo
 
 
 ### Desenvolvido Com
+Frotnend:
 
-* [![Python][Python.py]][Python-url]
-* [![Django][Django.py]][Django-url]
+* [![React][React.js]][React-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+
+Backend:
+* [![Angular][Angular.js]][Angular-url]
+
+Documentação: 
+
+* [![Docusaurus][Docusaurus.bgd]][Docusaurus-url]
+
 
 <p align="right">(<a href="README.md#início">Voltar ao Início</a>)</p>
 
@@ -117,8 +124,8 @@ Distribuído sob a GNU GENERAL PUBLIC LICENSE. Veja <a href="LICENSE.txt">`LICEN
 
 <details>
   <summary>Contato</summary> 
-  <img src="readme_files/images/gmail.png" width="16">
-  chevitarese.bruno@gmail.com 
+  
+  ![GMAIL][gmail] chevitarese.bruno@gmail.com 
   
   <img src="readme_files/images/github.png" width="32">
   <a href="https://github.com/chevitaresebruno"> chevitaresebruno </a>
@@ -160,11 +167,10 @@ Distribuído sob a GNU GENERAL PUBLIC LICENSE. Veja <a href="LICENSE.txt">`LICEN
 
 <br />
 <div align="center">
-  <a href="https://github.com/inicioMentesInovadoras/PracaDaCiencia">
-    <img src="readme_files/images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+  
+  ![LOGO][logo-img]
 
-<h3 align="center">Sistema Web Praça da Ciência</h3>
+<h3 align="center">Web System Praça da Ciência</h3>
 
   <p align="center">
     Development of a scheduling system for the Cience Park (Praça da Ciência) institution (Vitória-ES).
@@ -219,9 +225,18 @@ Despite their admirable efforts, the location does not have a dedicated Informat
 
 ### Developed With
 
-* [![Python][Python.py]][Python-url]
-* [![Django][Django.py]][Django-url]
+Frotnend:
+
+* [![React][React.js]][React-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+
+Backend:
+* [![Angular][Angular.js]][Angular-url]
+
+Documantation: 
+
+* [![Docusaurus][Docusaurus.bgd]][Docusaurus-url]
+
 
 <p align="right">(<a href="README.md#start">Return to Start</a>)</p>
 
@@ -275,11 +290,12 @@ Distributed under the GNU GENERAL PUBLIC LICENSE. See <a href="LICENSE.txt">`LIC
 
 <details>
   <summary>Contact</summary> 
-  <img src="readme_files/images/gmail.png" width="16">
-  chevitarese.bruno@gmail.com 
   
-  <img src="readme_files/images/github.png" width="32">
-  <a href="https://github.com/chevitaresebruno"> chevitaresebruno </a>
+  ![GMAIL][gmail] chevitarese.bruno@gmail.com 
+  
+  
+  ![GITHUB][github]
+<a href="https://github.com/chevitaresebruno"> chevitaresebruno </a>
 
 </details>
 
@@ -314,16 +330,18 @@ Distributed under the GNU GENERAL PUBLIC LICENSE. See <a href="LICENSE.txt">`LIC
 <p align="right">(<a href="README.md#start">Return to start</a>)</p>
 
 
-[praca-da-ciencia]: readme_files/images/praca_da_ciencia.JPG
-[gmail]: reademe_files/images/gmail.png
+[logo-img]: docs/static/imgs/logos/logo.png
 
-[Python.py]: https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white
-[Python-url]: https://www.python.org/
+[praca-da-ciencia]: docs/static/imgs/ambience/park_example_1.jpg
 
+[gmail]: docs/static/imgs/logos/gmail.png
+[github]: docs/static/imgs/logos/github.png
 
-[Django.py]: https://img.shields.io/badge/Django-000000?style=for-the-badge&logo=Django&logoColor=white
-[Django-url]: https://www.djangoproject.com/
-
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
-
+[Angular.js]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Docusaurus.bgd]: https://img.shields.io/badge/docusaurus-40cc5c?style=for-the-badge&logo=Docusaurus&logoColor=FFFFFF
+[Docusaurus-url]: https://docusaurus.io/
