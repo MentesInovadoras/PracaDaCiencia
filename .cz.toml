@@ -63,23 +63,3 @@ message = "Select the type of change you are committing"
 type = "input"
 name = "message"
 message = "Comment:"
-
-[[tool.commitizen.customize.questions]]
-type = "input"
-name = "issue_key"
-message = "Issue key in Jira (only the number)"
-
-[[tool.commitizen.customize.questions]]
-type = "confirm"
-name = "workflow_transition"
-message = "Was there any Workflow transition?"
-
-[[tool.commitizen.customize.questions]]
-type = "list"
-name = "workflow_transition_stage"
-message = "Select the Workflow Transition"
-choices = [
-    {value = "EM PROGRESSO", name = "EM PROGRESSO"},
-    {value = "EM VALIDAÇÃO", name = "EM VALIDAÇÃO"},
-    {value = "CONCLUÍDO", name = "CONCLUÍDO"},
-    ]
