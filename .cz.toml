@@ -29,7 +29,7 @@ style = [
 ]
 
 [tool.commitizen.customize]
-message_template = "{{change_type}}(PRACA-{{issue_key}}): {{message}} {%if workflow_transition %} #{{workflow_transition_stage}} {% endif %}"
+message_template = "{{change_type}}(PRACA): {{message}} {%if workflow_transition %} #{{workflow_transition_stage}} {% endif %}"
 schema = "<type>: <body>"
 schema_pattern = "(feature|fix|doc|refactor|ci|test|build):(\\s.*)"
 
