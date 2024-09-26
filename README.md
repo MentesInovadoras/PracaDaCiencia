@@ -249,6 +249,7 @@ To utilize the locally developed work, follow the instructions below:
 
 ### Requirements
 Python 3.11
+Node.js 20.16.0
 
 ### Instalation
 1. Clone the Repository
@@ -263,7 +264,7 @@ Python 3.11
    ```
 3. Install the requirements.txt
    ```js
-   pip install <- requirements.txt
+   pip install -r development\infra\requirements.txt
    ```
 4. Fill in the .env file with the necessary information.
 
