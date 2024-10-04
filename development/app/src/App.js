@@ -4,6 +4,8 @@ import HeaderMonth from './components/HeaderMonth.js';
 import NumberTable from './components/NumberTable.js';
 import PrevButton from './components/PrevButton.js';
 import NextButton from './components/NextButton.js';
+import AvailableTimes from './components/AvailableTimes.js';
+
 function App() {
 
   return (
@@ -26,19 +28,7 @@ function App() {
         <NextButton/>
       </div>
       <div id="variable_hours">
-        <h2 className="selected_data">Dia da semana, data(dd/mm)</h2>
-        <table id="available_times">
-          <tbody>
-            <tr>
-              <td className="available_hours">08:00</td>
-              <td className="available_hours">09:30</td>
-            </tr>
-            <tr>
-              <td className="available_hours">13:30</td>
-              <td className="available_hours">15:00</td>
-            </tr>
-          </tbody>
-        </table>
+        <AvailableTimes/>
       </div>
       <div id="vertical_line" />
     </div>

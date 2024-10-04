@@ -52,10 +52,11 @@ td{
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
+    transition: border 0.1s, background-color 0.2s;
 }
 td:hover{
-    background-color: rgba(255, 117, 1, 0.2);
-    border: 3px solid rgba(255, 117, 1, 1);
+    border: 3px solid rgba(255, 117, 1, 1); /* Borda mais grossa e visível */
+    background-color: rgba(255, 117, 1, 0.1); /* Opcional: mudar o fundo para destacar */
 }
 
 .main_title{
@@ -85,8 +86,8 @@ td:hover{
 }
 
 .selected_day{
-    border: 3px solid rgba(255, 117, 1, 0.2);
-    background-color: rgba(255, 117, 1, 0.1);
+    border: 3px solid rgba(255, 117, 1, 1); /* Borda mais grossa e visível */
+    background-color: rgba(255, 117, 1, 0.1); /* Opcional: mudar o fundo para destacar */
 }
 
 
@@ -115,23 +116,30 @@ td:hover{
     top: 40px;
     width: 750px;
     margin: 30px auto;
+    
 }
 
-#available_times{
-
+#available_times {
     padding: 20px;
 }
 
-.available_hours{
+.available_hours {
     width: 100px;
     height: 35px;
     border-radius: 35px;
     border: 3px solid rgba(255, 117, 1, 0.5);
     padding: 13px;
     border-spacing: 20px;
+    transition: border 0.1s, background-color 0.2s;
+    cursor: pointer;
 }
 
-table{
+.available_hours.selected {
+    border: 3px solid rgba(255, 117, 1, 1); /* Borda mais grossa e visível */
+    background-color: rgba(255, 117, 1, 0.1); /* Opcional: mudar o fundo para destacar */
+}
+
+table {
     display: flex;
     border-spacing: 12px 3px;
 }
@@ -142,6 +150,7 @@ table{
     width: 250px;
     left: calc(50% - 550px);
 }
+
 #logo{
     width: 250px;
     bottom: 180px;
