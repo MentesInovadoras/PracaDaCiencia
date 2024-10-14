@@ -132,16 +132,16 @@ Distribuído sob a GNU GENERAL PUBLIC LICENSE. Veja <a href="LICENSE.txt">`LICEN
 
 </details>
 
-### Caio César Coronel
+### Caio Cesar Oliva Coronel
 
 <details>
   <summary>Contato</summary>
     <ul>
       <li>
-        Email: chevitarese.bruno@gmail.com
+        Email: caiocesarcoronel@gmail.com
       </li>
       <li>
-      Github: <a href="https://github.com/chevitaresebruno"> chevitaresebruno </a>
+      Github: <a href="https://github.com/CCCoronel"> Caio Coronel </a>
       </li>
     </ul>
 </details>
