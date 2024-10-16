@@ -1,7 +1,7 @@
-export default function PrevButton(){
-    return(
-        <button id="prev_button" className="prev_button">
+export default function PrevButton({ onClick, disabled }) {
+  return (
+      <button id="prev_button" className="prev_button" onClick={onClick} disabled={disabled}>
           &lt;
-        </button>
-    )
+      </button>
+  );
 }

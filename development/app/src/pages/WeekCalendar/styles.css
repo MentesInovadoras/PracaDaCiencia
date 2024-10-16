@@ -162,3 +162,12 @@ table {
     left: 45%;
     top: 100px;
 }
+
+.disabled_day {
+    color: #ccc;
+    pointer-events: none;
+}
+
+.next_month_day {
+    color: #999;
+}

@@ -1,9 +1,6 @@
 import './styles.css';
 import Logo from '../../components/LogoSide.js';
-import HeaderMonth from '../../components/HeaderMonth.js';
 import NumberTable from '../../components/NumberTable.js';
-import PrevButton from '../../components/PrevButton.js';
-import NextButton from '../../components/NextButton.js';
 import AvailableTimes from '../../components/AvailableTimes.js';
 
 function App() {
@@ -21,11 +18,7 @@ function App() {
         <Logo />
       </div>
       <div id="week_side">
-        <HeaderMonth/>
-        {/*Não ta pronto ainda, não conseguir definir uma sequencia de dias da semana para exebir na tela em ordem */}
         <NumberTable/>
-        <PrevButton/>
-        <NextButton/>
       </div>
       <div id="variable_hours">
         <AvailableTimes/>

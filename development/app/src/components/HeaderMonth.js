@@ -1,12 +1,11 @@
-export default function HeaderMonth(){
-    const current_date = new Date(); 
+export default function HeaderMonth({ date }) {
     const ptBRDateFormater = new Intl.DateTimeFormat('pt-BR', {
         month: 'long',
-        year:  'numeric',
+        year: 'numeric',
     });
-    return(
-    <header>
-          <h2 className="main_title"> {ptBRDateFormater.format(current_date)}</h2>
-    </header>
+    return (
+        <header>
+            <h2 className="main_title">{ptBRDateFormater.format(date)}</h2>
+        </header>
     );
 }
