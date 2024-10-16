@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+*{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+}
+
+.box{
+    display: flex;
+}
