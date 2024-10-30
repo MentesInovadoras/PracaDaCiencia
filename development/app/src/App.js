@@ -1,5 +1,6 @@
 import WeekCalendar from './pages/WeekCalendar/index';
 import Home from './pages/Home/index';
+import Waiting from './pages/waiting/index';
 
 function App() {
 
@@ -8,8 +9,9 @@ function App() {
   <head>
     <meta name="viewport" content="width=devide-width, initial-scale=1.0" />
   </head>
-  {/* <WeekCalendar/> */}
-  <Home/>
+  <WeekCalendar/>
+  {/* <Home/> */}
+  {/* <Waiting/> */}
   </>
 
   );

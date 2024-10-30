@@ -1,0 +1,19 @@
+
+.logo{
+    top: 30vh;
+    bottom: auto;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+}
+
+.body{
+    height: 100vh;
+    background-image: url('../images/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.5);
+    }

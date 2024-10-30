@@ -1,5 +1,6 @@
 import './styles.css'
-import logo_praca from '../images/logo_praca.png'
+import logo_desenho from '../images/logo_desenho.png'
+import logo_texto from '../images/logo_texto.png'
 import backgroung from '../images/img1.jpg'
 
 export default function Home(){
@@ -7,12 +8,13 @@ export default function Home(){
         <>
         <div id = "background">
             <div>
-                <img src={logo_praca} alt="Logo" class = "logo" />
+                <img src={logo_desenho} alt="Logo" class = "logo_desenho" />
+                <img src={logo_texto} alt="Logo" class = "logo_texto" />
                 {/* <h1 class = "logo">Logo da praça da ciencia</h1> */}
             </div>
             <div class = "box">
                 <div class = "left">
-                    <h1 id = "left_box">Visitante</h1>
+                    <h1 id = "left_box">Pessoa</h1>
                     <h2 class = "button">Agendamento Online</h2>
                 </div>
                 <div class = "right">
